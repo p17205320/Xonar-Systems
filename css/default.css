@@ -1,0 +1,288 @@
+@font-face {font-family: BebasNeue; src: url(font/BebasNeue.otf)}
+body {
+    background-image: url(fancy-pants.jpg);
+        margin: 0px
+}
+#MainContainer {
+    background-color: white;
+    border: black 1px solid;
+    width: auto;
+    max-width: 1350px;
+    min-width: 600px;
+    height: auto;
+    min-height: 1000px;
+    margin: auto;
+    position:relative;
+    
+}
+
+#MainContainer p, span, input {
+    margin-left: 1em;
+    font-family: sans-serif;
+}
+
+#MainContainer a {
+    margin-left: .5em;
+    font-family: BebasNeue;
+    text-decoration: none;
+    height: 1px;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 25px;
+}
+#MainContainer h1 {
+    font-family: BebasNeue;
+}
+#MainContainer li {
+    list-style-type: none;
+}
+#MainContainer table th tr td {
+    font-family: BebasNeue;
+}
+#LogoBar {
+    background-color: #072569;
+width: 100%;
+height: auto;
+padding: 0px;
+}
+
+#LogoBar p {
+/*    Removes spacing of navigation bar in chrome*/
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    color: white;
+    text-align: center;
+/*    Removes spacing of navigation bar in firefox*/
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: BebasNeue;
+    font-size: 60px
+}
+
+
+
+
+
+#AccountBar {
+background-color: #072569;
+width: 100%;
+height: 30px;
+padding: 0px;
+text-align: right;
+}
+
+#AccountBar p, a {
+/*    Removes spacing of navigation bar in chrome*/
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    color: white;
+    text-align: center;
+/*    Removes spacing of navigation bar in firefox*/
+    margin-block-start: 0px;
+    font-family: BebasNeue;
+    font-size: 20px;
+    display: inline;
+    padding: 1em;    
+        cursor: pointer;
+}
+
+
+#NaviBar {
+background-color: #EE5900;
+width: 100%;
+height: 30px;
+padding: 0px;
+}
+
+#NaviBarAMD {
+    background-color: #EE5900;
+width: 100%;
+height: 30px;
+padding: 0px;
+display: none;
+}
+
+#NaviBarIntel {
+    background-color: #EE5900;
+width: 100%;
+height: 30px;
+padding: 0px;
+display: none;
+}
+
+#AccountBarLogin {
+    background-color: #072569;
+width: 100%;
+height: 30px;
+padding: 0px;
+display: none;
+}
+
+#AccountBarRegister {
+    background-color: #072569;
+width: 100%;
+height: 30px;
+padding: 0px;
+display: none;
+}
+#AccountBarSettings {
+    background-color: #072569;
+width: 100%;
+height: 30px;
+padding: 0px;
+display: none;
+}
+.UserGateway {
+float:right;
+}
+#NaviBar p, a, span {
+/*    Removes spacing of navigation bar in chrome*/
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    color: white;
+
+/*    Removes spacing of navigation bar in firefox*/
+    margin-block-start: 0px;
+    font-family: BebasNeue;
+    font-size: 20px;
+    height: 20px;
+
+}
+
+
+#AccountBar .dropdown .dropdown-content {
+
+    background-color: #072569;
+
+}
+.dropdown-content ul, li, a {
+    padding-left: 0px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#FooterBar {
+    background-color: #EE5900;
+width: 100%;
+height: auto;
+padding: 0px;
+position:absolute;
+   bottom:0;
+}
+
+#FooterBar p {
+    /*    Removes spacing of navigation bar in chrome*/
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    color: white;
+    text-align: center;
+/*    Removes spacing of navigation bar in firefox*/
+    margin-block-start: 0px;
+    font-family: BebasNeue;
+    font-size: 20px;
+    margin: auto;
+        
+}
+
+#Product_Contain {
+    background-color: #EE5900;
+width: 50%;
+}
+
+#Product_Contain table{
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+
+#Product_Contain  table  tbody  tr  td h1 {
+    margin: 0px;
+}
+
+#Product_Contain  table  tbody  tr  td {
+    margin: 0px;
+    cursor: default;
+}
+
+#Product_Details_CPU, #Product_Details_Case, #Product_Details_GPU, #Product_Details_Motherboard, #Product_Details_RAM, #Product_Details_PSU, #Product_Details_Storage {
+    display:none;
+}
+
+
+#productimg {
+    float: right;
+width: 50%;
+height: 61%;
+}
+
+#productimg img {
+    max-width: 100%;
+height: auto;
+align-self: center;
+display: block;
+margin: auto;
+max-block-size: 100%;
+}
+
+#checkout table tbody {
+    font-family: sans-serif;
+        
+}
+#checkout table  {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+
+#checkout table thead {
+    font-family: sans-serif;
+}
+
+.tablesorter-header-inner {
+    cursor: pointer;
+	display: inline;
+}
+
+th.tablesorter-header.tablesorter-headerasc:after {
+content: " ▼";
+}
+
+th.tablesorter-header.tablesorter-headerdesc:after {
+content: " ▲";
+}
+
+#gd-widget-div.gd-widget-light {
+	width: 50%;
+}
+
+.gd-flex.gd-justify-space-between.gd-footer-bar.gd-flex-wrap {
+	height: 30px !important;
+}
+
+
+.gd-header.gd-flex.gd-justify-space-between{
+    background-color: #ee5900 !important;
+    font-family: BebasNeue !important;
+}
+
+.select2-search--dropdown {
+    background: #072569 !important;
+}
+.select2-container--default .select2-results>.select2-results__options {
+    background: #072569 !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    width: 95% !important;
+}
+
+button.gd-can-i-run-it-btn {
+	background-color: #ee5900 !important;
+}
+
+button.gd-go-back-btn.gd-padding5 {
+	background-color: #ee5900 !important;
+}
